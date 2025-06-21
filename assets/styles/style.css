@@ -423,20 +423,20 @@ nav ul a:hover {
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
-    background-color: #1C2541;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     scroll-margin-top: 10vh;
 }
 
 .quienes-somos h2{
-    color: #6FFFE9;
+    color: #5BC0BE;
     font-size: 2em;
     text-align: center;
     margin: 40px 0 8px 0;
 }
 
 .quienes-somos h4 {
-    color: #fff;
+    color: #000;
     font-size: 1.25em;
     font-weight: 400;
     text-align: center;
@@ -456,7 +456,7 @@ nav ul a:hover {
 
 .quienes-somos .startup-info {
     font-size: 1em;
-    color: #fff;
+    color: #000;
     margin: 20px 0;
     text-align: justify;
     padding: 0 20px;
@@ -486,12 +486,14 @@ nav ul a:hover {
 }
 
 .profile-item .profile-name {
-    color: #fff;
+    color: #000;
+    font-weight: 500;
     margin: 16px 0 0 0;
 }
 
 .profile-item .profile-role {
-    color: #6FFFE9;
+    color: #5BC0BE;
+    font-weight: 500;
 }
 
 .quienes-somos img {
