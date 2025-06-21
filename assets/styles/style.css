@@ -503,11 +503,20 @@ nav ul a:hover {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
     min-height: 400px;
     padding: 40px 20px;
     background-color: #fff;
     scroll-margin-top: 10vh;
+}
+
+.about-product .content{
+    flex: 1 1 400px;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.content .btn-action {
+    font-size: 1em;
 }
 
 .about-product h2 {
@@ -527,6 +536,7 @@ nav ul a:hover {
 }
 
 .video-about-product {
+
     position: relative;
     width: 60%;
     max-width: 800px;
