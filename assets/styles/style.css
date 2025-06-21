@@ -92,6 +92,17 @@ nav ul a:hover {
     transition: all 0.3s ease;
 }
 
+.btn-recurrent{
+    background-color: #6FFFE9;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #000;
+}
+
+.btn-recurrent:hover{
+    color: #000;
+}
+
 /* Styles for Hero Section*/
 .hero {
     min-height: 90vh;
